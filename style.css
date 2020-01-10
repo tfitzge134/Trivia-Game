@@ -1,0 +1,80 @@
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: bisque;
+}
+
+.container {
+    text-align: center;
+}
+
+.question {
+    font-weight: 600;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers label {
+    display: block;
+}
+
+
+#questions {
+    display: flex;
+}
+
+#questions .question-wrap {
+    margin: 10px 20px;
+}
+
+button {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: red;
+    border: 1px solid gray;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+}
+
+.showRes {
+    padding: 50px 20px;
+    background: white;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.showRes h1 {
+    color: red;
+}
+
+.showRes .resGreen {
+    color: green;
+}
